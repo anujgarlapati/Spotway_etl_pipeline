@@ -95,7 +95,7 @@ The code is seen in AWS Lambda as follows.
 
 In Amazon Cloudwatch, we set a daily trigger as we are in need of extracting data once every day as the playlist data is ever-changing. This can be done by adding a trigger in the function overview.
 
-![Screenshot 2023-05-31 at 3 46 04 PM](https://github.com/anujgarlapati/Spotway_etl_project/assets/59670482/15f829c6-b500-4eb8-a424-89ec4cb337c3)
+![Screenshot 2023-06-08 at 9 03 36 PM](https://github.com/anujgarlapati/Spotway_etl_pipeline/assets/59670482/d0f8a1df-1b9a-4f73-bf31-4db400da9668)
 
 
 ## Spotify_data_transformation.py
@@ -234,7 +234,7 @@ def lambda_handler(event, context):
 
 The trigger for spotify_data_transformation function is as follows:
 
-![Screenshot 2023-05-31 at 4 28 57 PM](https://github.com/anujgarlapati/Spotway_etl_project/assets/59670482/905f1627-441d-4a43-b5ae-e4db3e75a07a)
+![Screenshot 2023-06-08 at 9 03 46 PM](https://github.com/anujgarlapati/Spotway_etl_pipeline/assets/59670482/dd4bda16-5cf3-48bf-9faf-30f96dcbf3fd)
 
 
 ## Loading the data in the ETL Pipeline
