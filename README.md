@@ -241,12 +241,12 @@ The trigger for spotify_data_transformation function is as follows:
 
 Once both the extraction and transformation phases are done for the ETL pipeline, the last and final phase of the ETL pipeline is to load the data. To load the data, we must use the crawler in AWS Glue to connect a datastore to create metadata tables. There are three different crawlers that we have created to load the data in a catalog, the artist, song, and album data. This can be seen in the image down below:
 
-
-![Screenshot 2023-05-31 at 4 30 00 PM](https://github.com/anujgarlapati/Spotway_etl_project/assets/59670482/d32b2fdc-8a81-4106-b4b6-7344e7848482)
+![Screenshot 2023-05-31 at 4 30 00 PM](https://github.com/anujgarlapati/Spotway_etl_pipeline/assets/59670482/a1ec777e-0e57-48e7-a4c5-549d051e01b8)
 
 Once the data is loaded into a data catalog by AWS Glue's crawler, we can then access the data using AWS Athena for data analytics. We are able to perform a multitude of tasks which include even running SQL queries to sort and organize the data. This can be seen down below. 
 
-![Screenshot 2023-05-31 at 4 39 07 PM](https://github.com/anujgarlapati/Spotway_etl_project/assets/59670482/f1acf069-0382-48d4-9615-097739553b22)
+![Screenshot 2023-05-31 at 4 39 07 PM](https://github.com/anujgarlapati/Spotway_etl_pipeline/assets/59670482/3373915e-7ebc-40f0-83ae-dd0f0697ed0d)
+
 
 
 ## Conclusion/Key Takeways
