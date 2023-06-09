@@ -25,7 +25,8 @@ The architecture diagram created below highlights and breaks down the ETL pipeli
 • The transformed data is crawled by AWS glue and can be accessed and used for data analytics on AWS Athena. 
 
 
-![Screenshot 2023-05-29 at 4 00 19 PM](https://github.com/anujgarlapati/Spotway_etl_project/assets/59670482/87d78d5f-5d6d-427a-a332-d549373b04ab)
+![Screenshot 2023-05-29 at 4 00 19 PM](https://github.com/anujgarlapati/Spotway_etl_pipeline/assets/59670482/97934928-cbc9-4dfa-b14a-f263bed2d349)
+
 
 ## Building the ETL Pipeline
 
