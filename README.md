@@ -33,7 +33,8 @@ The architecture diagram created below highlights and breaks down the ETL pipeli
 Before starting to build the ETL pipeline, we must require access to the dataset. The dataset used for this data engineering project is Spotify's web API.
 An account must be created to access this API, and this will allow us to get the credentials of both the client id and client secret. These tokens can be accessed as seen in the image below. 
 
-![Screenshot 2023-05-31 at 2 58 51 PM](https://github.com/anujgarlapati/Spotway_etl_project/assets/59670482/95f33dc6-9b26-4d63-8a4d-dbb82b8ae93c)
+![Screenshot 2023-05-31 at 2 58 51 PM](https://github.com/anujgarlapati/Spotway_etl_pipeline/assets/59670482/38653e7d-6583-46ea-a72c-60f13ed7a7ac)
+
 
 ## Spotify_extract_data_api.py
 
@@ -89,7 +90,8 @@ Boto3 provides a Python API for AWS cloud infrastructure services. In the follow
 
 The code is seen in AWS Lambda as follows. 
 
-![Screenshot 2023-05-31 at 3 43 12 PM](https://github.com/anujgarlapati/Spotway_etl_project/assets/59670482/b65e82ca-b502-49eb-b872-821e27c627fd)
+![Screenshot 2023-05-31 at 3 43 12 PM](https://github.com/anujgarlapati/Spotway_etl_pipeline/assets/59670482/596ea0b2-6d2f-494c-9667-128a914741cb)
+
 
 In Amazon Cloudwatch, we set a daily trigger as we are in need of extracting data once every day as the playlist data is ever-changing. This can be done by adding a trigger in the function overview.
 
